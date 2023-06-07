@@ -95,7 +95,7 @@ void setup()
   for(uint16_t i = 0; i < samples; i++)
   {
     Serial.print(input[i]); //Use SerialUSB for SparkFun SAMD21 boards
-    Serial.print(","); //Use SerialUSB for SparkFun SAMD21 boards
+    Serial.print("\t"); //Use SerialUSB for SparkFun SAMD21 boards
     Serial.print(filtered[i]); //Use SerialUSB for SparkFun SAMD21 boards
     Serial.println(); //Use SerialUSB for SparkFun SAMD21 boards
 
